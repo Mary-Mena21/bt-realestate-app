@@ -175,6 +175,7 @@ cython_debug/
 
 Close Addy AIOpen Addy AI Dashboard
 /Readme-mariana.text
-
+/media
+# Additional files and directories to ignore
 venv
 /staticfiles

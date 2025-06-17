@@ -1,0 +1,43 @@
+1-python3 -m venv ./venv
+2-source venv/Scripts/activate
+deactivate
+3-pip install django
+pip show django
+4-pip freeze
+5-django-admin help
+6-django-admin startproject btre .
+ python manage.py runserver
+7-pip install python-dotenv
+pip show python-dotenv
+pip install django-extensions
+pip show django-extensions
+pip install djangorestframework
+pip show djangorestframework
+pip install django-cors-headers
+pip show django-cors-headers
+python manage.py makemigrations api
+python manage.py migrate
+python manage.py runserver
+poetry run python manage.py runserver
+create virtual environment
+run virtual environment
+activate virtual environment
+source scripts/setup-windows.bat // on windows
+
+python manage.py runserver
+
+Username: Mariana       
+Email address: marianashokry@yahoo.com  
+Password:
+Password (again):
+Superuser created successfully.
+
+npx kill-port 8000
+//when django can't connect to your database django run hangs at
+System check identified no issues (0 silenced).
+
+netstat -ano | findstr 8000 // to find the process ==> from terminal (admin) right click on windows
+taskkill /PID 8728 /F // to kill the process
+poetry run python manage.py runserver
+
+front/: npm install react-slick slick-carousel
